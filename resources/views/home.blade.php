@@ -39,6 +39,13 @@
             <div class="bg-white p-6 rounded shadow">
                 <h3 class="text-xl font-bold text-gray-800">Reglas</h3>
                 <p class="text-gray-600 mt-2">Conoce las reglas del juego como nunca antes.</p>
+                <!-- Botón que redirige a la página de reglas -->
+                <a 
+                    href="{{ route('reglas') }}" 
+                    class="mt-4 inline-block bg-green-700 text-white px-6 py-3 rounded-full shadow-md hover:bg-green-600"
+                >
+                    Ver Reglas del Juego
+                </a>
             </div>
         </div>
     </main>
